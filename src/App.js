@@ -2,6 +2,7 @@
 import './App.css';
 import BgChange from './hooks/useState/BgChange';
 import ButtonTrigger from './hooks/useState/ButtonTrigger';
+import Management from './hooks/useState/CheckboxesManagement';
 import Counter from './hooks/useState/Couter';
 import Toggle from './hooks/useState/ToggleVisibility';
 
@@ -18,6 +19,8 @@ function App() {
      <Toggle />
      <h3>4. Button Trigger</h3>
      <ButtonTrigger />
+     <h3>5. Checkbox Management</h3>
+     <Management />
     </div>
   );
 }
