@@ -1,5 +1,7 @@
 
 import './App.css';
+import NavBar from './components/NavBar';
+import FetchData from './hooks/useEffect/FetchData';
 import BgChange from './hooks/useState/BgChange';
 import ButtonTrigger from './hooks/useState/ButtonTrigger';
 import Management from './hooks/useState/CheckboxesManagement';
@@ -10,7 +12,8 @@ function App() {
   return (
     <div className="App">
      <h1>Hooks Examples</h1>
-     <h2>useState</h2>
+     <NavBar />
+     {/* <h2>useState</h2>
      <h3>1. Counter Application</h3>
      <Counter />
      <h3>2. Background color changer</h3>
@@ -21,6 +24,11 @@ function App() {
      <ButtonTrigger />
      <h3>5. Checkbox Management</h3>
      <Management />
+
+     <h2>useEffect</h2>
+     <h3>1. FetchData</h3>
+     <FetchData /> */}
+     
     </div>
   );
 }
